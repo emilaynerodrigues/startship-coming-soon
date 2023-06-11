@@ -3,6 +3,8 @@ var hoursContainer = document.querySelector(".hours");
 var minutesContainer = document.querySelector(".minutes");
 var secondsContainer = document.querySelector(".seconds");
 var yearContainer = document.querySelector(".year");
+var button = document.querySelector(".mail-btn");
+var displayMailContainer = document.querySelector(".display-mail");
 
 function countdown() {
   var targetDay = new Date(
@@ -39,3 +41,9 @@ function countdown() {
 window.onload = function () {
   countdown();
 };
+
+button.addEventListener("click", function () {
+  displayMailContainer.textContent = "mail@gmail.com";
+  displayMailContainer.classList.remove("hidden");
+  displayMailContainer.classList.add("visible");
+});

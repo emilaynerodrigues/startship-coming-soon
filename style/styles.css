@@ -119,6 +119,12 @@ main {
   font-size: 1.6rem;
 }
 
+.btn-area {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
 .mail-btn {
   height: 6rem;
   width: 6rem;
@@ -148,6 +154,21 @@ main {
 
 .mail-inner i {
   font-size: 1.5rem;
+}
+
+.hidden {
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+}
+
+.visible {
+  opacity: 1;
+}
+
+.display-mail {
+  font-size: 1.5rem;
+  font-weight: 600;
+  transition: all 0.3s;
 }
 
 /* contador */
