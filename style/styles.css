@@ -267,7 +267,7 @@ footer {
 footer::after {
   position: absolute;
   content: "";
-  bottom: -700%;
+  bottom: -720%;
   border-radius: 100%;
   height: 100rem;
   width: 100vw;
