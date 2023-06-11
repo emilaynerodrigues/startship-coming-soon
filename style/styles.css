@@ -115,7 +115,7 @@ main {
   font-weight: 900;
 }
 
-.content-1 p {
+.content-1 p, .content-1 p span {
   font-size: 1.6rem;
 }
 
