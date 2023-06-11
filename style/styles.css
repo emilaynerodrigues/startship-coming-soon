@@ -334,3 +334,107 @@ footer::after {
 .copyrights span {
   font-size: 1.4rem;
 }
+
+/* para dispositivos moveis pequenos */
+@media (max-width: 480px) {
+  .hidden-480 {
+    display: none;
+  }
+
+  body {
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  main {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .content-1 {
+    gap: 1rem;
+  }
+
+  .content-1 h1 {
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  .content-1 p {
+    font-size: 1.6rem;
+  }
+
+  .content-2 {
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  .box {
+    height: 10rem;
+    width: 8rem;
+  }
+
+  .box span {
+    height: 70%;
+    font-size: 4rem;
+  }
+
+  .box label {
+    height: 30%;
+    font-size: 1.4rem;
+  }
+
+  .orange-circle {
+    width: 8rem;
+    height: 8rem;
+    left: 20%;
+    top: 50%;
+  }
+
+  .red-circle {
+    width: 4rem;
+    height: 4rem;
+    left: 65%;
+    top: 18%;
+    z-index: -1;
+  }
+
+  .blue-circle {
+    width: 5rem;
+    height: 5rem;
+    right: 12%;
+    top: 73%;
+  }
+
+  .purple-circle {
+    width: 9rem;
+    height: 9rem;
+    left: 10%;
+    top: 75%;
+  }
+
+
+
+  footer::after {
+    bottom: 0;
+    height: 13rem;
+    width: 100vw;
+    border-radius: 50% 50% 0 0;
+  }
+
+  .copyrights span {
+    font-size: 1.1rem;
+  }
+}
+
+/* para dispositivos moveis em modo paisagem e tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+}
