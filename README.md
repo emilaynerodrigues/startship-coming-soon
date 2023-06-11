@@ -8,9 +8,9 @@ Este projeto é uma página web que exibe a mensagem "Website em construção" e
 
 O design foi inspirado no modelo: https://speckyboy.com/wp-content/uploads/2021/10/coming-soon-page-web-design-inspiration-05.jpg
 
-## Screenshot
+## Demonstração
 
-![Screenshot](screenshot.png)
+![Demonstração](demo.gif)
 
 ## Funcionalidades
 
