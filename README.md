@@ -4,7 +4,9 @@ Uma página simples em HTML, CSS e JavaScript para praticar habilidades front-en
 
 ## Descrição
 
-Este projeto é uma página web que exibe a mensagem "Website em construção" e inclui um contador de dias para a entrega da página. É um projeto básico desenvolvido para praticar conceitos de HTML, CSS e JavaScript.
+Este projeto é uma página web que exibe a mensagem "Website em construção" e inclui um contador de dias para a entrega da página. É um projeto básico desenvolvido para praticar conceitos de HTML, CSS e JavaScript. 
+
+O design foi inspirado no modelo: https://speckyboy.com/wp-content/uploads/2021/10/coming-soon-page-web-design-inspiration-05.jpg
 
 ## Screenshot
 
