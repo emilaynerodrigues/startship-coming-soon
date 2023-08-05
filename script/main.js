@@ -8,7 +8,7 @@ var displayMailContainer = document.querySelector(".display-mail");
 
 function countdown() {
   var targetDay = new Date(
-    "June 31, " + new Date().getFullYear() + " 00:00:00"
+    "December 31, " + new Date().getFullYear() + " 00:00:00"
   ).getTime();
 
   var interval = setInterval(function () {
